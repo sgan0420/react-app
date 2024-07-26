@@ -30,7 +30,7 @@ function App() {
 
       {alertVisible && (
         <Alert onClose={() => setAlertVisible(false)}>
-          Click on a city to select it
+          Click on a city to select it <em>(check the console)</em>
         </Alert>
       )}
     </div>
